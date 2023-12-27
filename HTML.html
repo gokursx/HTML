@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+
+CIS 145 Assignment 3: Web Development Tutorial
+Author: Aaron Hyde
+Date:   March 31, 2023
+
+Filename: A3_Hyde_Aaron.html
+
+-->
+
+<meta charset="utf-8" />
+<title> HTML WebDev Tutorial </title>
+<link href="A3_reset.css" rel="stylesheet" />
+<link href="A3_Hyde_Aaron.css" rel="stylesheet" />
+<script src="rb_formsubmit.js"></script>
+</head>
+
+<body>
+    <header>
+        HTML Tutorial
+    </header>
+<section id="intro">
+    <article>
+        <figure>
+            <iframe src="https://www.youtube.com/embed/8h4RwiL8rmg"></iframe>
+            <figcaption>Source: (Dr. Todd Wolfe Technology Training and Tutorials, 2021)</figcaption>
+        </figure>
+        <p> HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages.
+            HTML was created by Berners-Lee in late 1991 but "HTML 2.0" was the first standard HTML specification which was 
+            published in 1995. HTML 4.01 was a major version of HTML and it was published in late 1999. Though HTML 4.01 
+            version is widely used but currently we are having HTML-5 version which is an extension to HTML 4.01, and 
+            this version was published in 2012.
+            <ul>
+                <li>HTML Element</li>
+                <li>Heading Tags</li>
+                <li>Attribute</li>
+                <li>HTML Forms</li>
+                <li>Meta Tag</li>
+            </ul></p>
+    </article>
+</section>
+
+<section id="backimg">
+    <h1> HTML Element </h1>
+    <article>
+        <p>
+            An HTML element is defined by a starting tag. If the element contains other content, it 
+            ends with a closing tag, where the element name is preceded by a forward slash as shown 
+            below with few tags −
+            <table id="base"> 
+                <caption>Table with 2px solid borders</caption>
+                    <tr>
+                        <th>Start Tag</th>
+                        <th>Content </th>
+                        <th>End Tag</th>
+                    </tr>
+                    <tr>
+                        <td> < p> </td>
+                        <td>This is Paragraph Content</td>
+                        <td>  < /p> </td>
+                    </tr>
+                    <tr>
+                        <td> < h> </td>
+                        <td>This is a Heading Content</td>
+                        <td> < /h> </td>
+                    </tr>
+                    <tr>
+                        <td>< d>  </td>
+                        <td>This is a division content </td>
+                        <td>< /d>  </td>
+                    </tr>
+                    <tr>
+                        <td> < /br></td>
+                      
+                    </tr>
+            </table>    
+        </p>
+    </article>
+</section>
+
+<section id="shadow">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <h1> Heading Tags </h1>
+    <article>
+        <p>
+            Any document starts with a heading. You can use different sizes for your headings. 
+            HTML also has six levels of headings, which use the elements < h1>, < h2>, < h3>, < h4>, 
+                < h5>, and < h6>. While displaying any heading, browser adds one line before and 
+                    one line after that heading.
+        </p>
+    </article>
+</section>
+
+<section id="gradient">
+    <h1> Attribute </h1>
+    <article>
+        <p>
+            An attribute is used to define the characteristics of an HTML element and is placed inside 
+            the element's opening tag. All attributes are made up of two parts − a name and a value
+
+The name is the property you want to set. For example, the paragraph <p> element in the example carries 
+    an attribute whose name is align, which you can use to indicate the alignment of paragraph on the page.
+The value is what you want the value of the property to be set and always put within quotations. The below 
+example shows three possible values of align attribute: left, center and right.
+        </p>
+    </article>
+</section>
+
+<section id="transformation">
+    <h1> HTML Forms </h1>
+    <article>
+        <p>
+            HTML Forms are required, when you want to collect some data from the site visitor. For example, during
+             user registration you would like to collect information such as name, email address, credit card, etc.
+
+A form will take input from the site visitor and then will post it to a back-end application such as CGI, ASP Script
+ or PHP script etc. The back-end application will perform required processing on the passed data based on defined business 
+ logic inside the application.
+
+There are various form elements available like text fields, textarea fields, drop-down menus, radio buttons, checkboxes, etc.
+
+The HTML <form> tag is used to create an HTML form and it has following syntax −
+
+<form action = "Script URL" method = "GET|POST">
+   form elements like input, textarea etc.
+</form> 
+        <em><div>
+            <figure id="translate">
+                <img src="examplee.jpg.png" alt="Form" />
+            </figure>
+        </div> 
+        </em>  
+        </p>
+    </article>
+</section>
+
+<section id="table">
+    <h1> Meta Tag </h1>
+    <article>
+        <p>
+            HTML lets you specify metadata - additional important information about a document in a variety of ways. The META 
+            elements can be used to include name/value pairs describing properties of the HTML document, such as author, expiry 
+            date, a list of keywords, document author etc.
+
+The <meta> tag is used to provide such additional information. This tag is an empty element and so does not have a closing tag 
+but it carries information within its attributes.
+            <table id="base">
+                <caption>Table with 2px solid borders</caption>
+                <tr>
+                    <th>SR.No</th>
+                    <th>Attribute and Description</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><strong>Name</strong>
+
+                        Name for the property. Can be anything. Examples include, keywords, description, author, revised, generator etc.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><strong>content</strong>
+
+                        Specifies the property's value.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><strong>scheme</strong>
+
+                        Specifies a scheme to interpret the property's value (as declared in the content attribute).</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><strong>http-equiv</strong>
+
+                        Used for http response message headers. For example, http-equiv can be used to refresh the page or 
+                        to set a cookie. Values include content-type, expires, refresh and set-cookie.</td>
+                </tr>
+            </table>
+            <table id="spacing">
+                <caption>Border spacing of 5 px</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Favorite Color</th>
+                </tr>
+                <tr>
+                    <td>James Knight</td>
+                    <td>Green</td>
+                </tr>
+                <tr>
+                    <td>Leroy Raines</td>
+                    <td>Purple</td>
+                </tr>
+                <tr>
+                    <td>Julie Kingsley</td>
+                    <td>Blue</td>
+                </tr>
+                <tr>
+                    <td>Glenda Garner</td>
+                    <td>Yellow</td>
+                </tr>
+            </table>
+            <table id="collapse">
+                <caption>Collapsed borders</caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Favorite Color</th>
+                </tr>
+                <tr>
+                    <td>James Knight</td>
+                    <td>Green</td>
+                </tr>
+                <tr>
+                    <td>Leroy Raines</td>
+                    <td>Purple</td>
+                </tr>
+                <tr>
+                    <td>Julie Kingsley</td>
+                    <td>Blue</td>
+                </tr>
+                <tr>
+                    <td>Glenda Garner</td>
+                    <td>Yellow</td>
+                </tr>
+            </table>
+        </p>
+    </article>
+</section>
+<div class="clear"></div>
+</body>
+</html>
